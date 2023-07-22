@@ -7,7 +7,7 @@
         <form action="resultados.html" method="get">
             <div>
                 <label for="nombre_usuario">Nombre de usuario</label>
-                <input name="name" id="nombre_usuario">
+                <input type="text" name="nombre_usuario" id="nombre_usuario" required>
             </div>
             <div>
                 <label for="comentarios">Comentarios</label>
@@ -15,9 +15,22 @@
             </div>
             <div>
                 <label for="contraseña">Contraseña</label>
-                <input name="password" id="contraseña">
+                <input type="password" name="password" id="contraseña" required>
             </div>
-            <button>Enviar</button>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="0" max="99" required>
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" id="fecha" required>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
         </form>
     </body>
 </html>
