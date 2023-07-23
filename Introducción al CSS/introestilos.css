@@ -1,0 +1,43 @@
+.colores {
+    color: aquamarine;
+}
+
+.colorRGB {
+    color: rgb(73, 151, 72); /*RGB*/
+}
+
+.colorRGBA {
+    color: rgba(151, 72, 72, 0.811); /*RGBA*/
+}
+
+.colorHEX {
+    color: #FFF000; /*Hexadecimal*/
+}
+
+.fondo {
+    background-color: cornflowerblue;
+}
+
+.fondo2 {
+    background-image: url("https://services.meteored.com/img/article/por-que-el-cielo-se-torna-naranja-durante-el-atardecer-1684769231676_1280.jpeg");
+    background-position: center, center;
+}
+
+.ancho {
+    background-color: rgba(128, 255, 0, 0.23);
+    width: 100px;
+}
+
+.altura {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 2px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px 30px 40px;
+}

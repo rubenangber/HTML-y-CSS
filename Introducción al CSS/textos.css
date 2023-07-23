@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Lumanosimo', cursive;
+}

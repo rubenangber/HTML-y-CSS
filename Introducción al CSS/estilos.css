@@ -1,0 +1,25 @@
+/*Comentario*/
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/*id*/
+#PrimeraNot {
+    color: green;
+    font-size: 12pt;
+}
+
+/*class*/
+.SegundaNot {
+    color: rebeccapurple;
+    text-transform: uppercase;
+}
+
+* {
+    color: yellow;
+}
