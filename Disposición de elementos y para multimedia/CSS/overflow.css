@@ -1,0 +1,36 @@
+/* Todo lo que salga se oculta */
+.contenedor-hidden {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Se crea un barra de scroll para poder
+visualizar todo el contenido */
+.contenedor-scroll {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+/* Por defecto */
+.contenedor-visible {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    overflow: visible;
+}
+
+/* Optimiza */
+.contenedor-auto {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    overflow: auto;
+}

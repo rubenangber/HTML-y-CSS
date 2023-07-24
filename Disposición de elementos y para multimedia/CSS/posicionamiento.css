@@ -1,0 +1,39 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Se posiciona en relacion al 
+posicionamiento original */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/* Se posiciona en relacion
+a la pantalla */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10; /* Ponerse por delante de todo */
+}
+
+/* Se posiciona en relacion
+a su elemento padre (en este caso el body) */
+.absolute {
+    position: absolute;
+    top: 0px
+}
+
+/* Al hacer scroll modifica su
+posicionamiento */
+.sticky {
+    position: sticky;
+    background-color: darksalmon;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}
