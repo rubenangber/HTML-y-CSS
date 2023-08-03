@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudoclases</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            .hover {
+                width: 300px;
+                height: 100px;
+                background-color: bisque;
+            }
+
+            .hover:hover { /*Se activa cuando el raton pasa por encima*/
+                background-color: aqua;
+            }
+
+            .listado {
+                padding: 15px;
+                background-color: aquamarine;
+            }
+
+            .listado p:first-child {
+                color: white;
+            }
+
+            a:link { /*Link no visitado todavia*/
+                color: deeppink;
+            }
+
+            a:visited { /*Link visitado*/
+                color: crimson;
+            }
+
+            a:hover {
+                color: pink;
+            }
+
+            a:active { /*Cuando se hace click*/
+                color: greenyellow;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="hover">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, odit ullam suscipit earum voluptate quia. Et, fugiat ab harum cum dolore deleniti? Beatae fugit maiores nemo? Omnis illo repellat nesciunt.</p>
+        </div>
+
+        <div class="listado">
+            <p>Parrafo 1</p>
+            <p>Parrafo 2</p>
+            <p>Parrafo 3</p>
+        </div>
+
+        <div class="enlaces">
+            <a href="https://google.com" target="_blank">Enlace a google</a>
+            <a href="https://marca.com" target="_blank">Enlace a marca</a>
+        </div>
+    </body>
+</html>

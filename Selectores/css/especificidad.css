@@ -1,0 +1,15 @@
+#h1-id { /*Mayor espedifidad con id*/
+    color: violet
+}
+
+.h1-class {
+    color: yellow;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
