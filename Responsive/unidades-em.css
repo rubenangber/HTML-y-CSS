@@ -1,0 +1,19 @@
+.escenario1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.escenario2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}
