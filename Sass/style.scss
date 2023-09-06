@@ -9,6 +9,9 @@ $text-color: #3f3f3f;
     background-color: $bg-color;
 }
 
+//Componentes
+@import "componentes";
+
 h1 {
     color: red;
     background-color: green;
